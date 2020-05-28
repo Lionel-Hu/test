@@ -1,0 +1,132 @@
+.w{
+	width: 1200px;
+	margin: auto;
+}
+.header{
+	height: 82px;
+	border-bottom: 2px solid #B1191A;
+}
+.logo{
+	padding-top: 15px;
+}
+.registerarea{
+	height: 520px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.registerarea h3{
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ececec;
+	padding-left: 10px;
+	font-weight: 400;
+	line-height: 40px;
+	font-size: 18px;
+}
+.registerarea h3 em{
+	float: right;
+	font-size: 14px;
+	font-weight: 400;
+	padding-right: 10px;
+}
+.registerarea em a{
+	color: #C81623;
+}
+.reg_form{
+	width: 600px;
+	height: 420px;
+	/* background-color: pink; */
+	margin: 40px auto;
+}
+.reg_form li{
+	margin-bottom: 15px;
+}
+.reg_form label{
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+.inp{
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+}
+.error{
+	color: #df3033;
+	margin-left: 10px;
+}
+.error_icon,
+.success_icon{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/error.png) no-repeat;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+.success_icon{
+	background: url(../img/success.png);
+}
+.success{
+	color: #40b83f;
+	margin-left: 10px;
+}
+.safe{
+	padding-left: 185px;
+	color: #bebebe;
+}
+.safe em{
+	display: inline-block;
+	width: 34px;
+	height: 12px;
+	line-height: 12px;
+	text-align: center;
+}
+.ruo{
+	background-color: #de1111;
+	color: #fff;
+}
+.zhong{
+	background-color: #40b83f;
+	color: #fff;
+}
+.qiang{
+	background-color: #f79100;
+	color: #fff;
+}
+.agree{
+	padding: 10px;
+	padding-left: 100px;
+}
+.agree input{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.agree a{
+	color: #1ba1e6;
+}
+.over{
+	/* outline: none; */
+	width: 200px;
+	height: 34px;
+	background-color: #C81623;
+	margin: 30px 0 0 130px;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+}
+.footer{
+	height: 120px;
+	text-align: center;
+}
+.links{
+	height: 30px;
+	margin-top: 20px;
+}
+.copyright{
+	height: 20px;
+	line-height: 20px;
+}

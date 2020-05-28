@@ -1,0 +1,314 @@
+.main {
+    /* display: none; */
+    width: 980px;
+    height: 455px;
+    /* background-color: pink; */
+    margin-top: 10px;
+    margin-left: 219px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    /* background-color: purple; */
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    /* background-color: pink; */
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+
+/* .arrow-l{
+	float: left;
+} */
+
+.arrow-r {
+    float: right;
+}
+
+.circle {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 1px solid rgba(255, 255, 255, .6);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+    /* background-color: skyblue; */
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+    /* background-color: pink; */
+}
+
+.news-hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    /* background-color: purple; */
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.service-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service-icon-huafei {
+    background-position: -17px -16px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+
+/* 推荐模块 */
+
+.recommend {
+    height: 163px;
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+
+.recommend-hd {
+    height: 163px;
+    width: 200px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recommend-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recommend-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.recommend-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recommend-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+
+.recommend-bd .last {
+    border-right: none;
+}
+
+.box-hd {
+    height: 30px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #C81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #C81623;
+}
+
+.tab-list {
+    float: right;
+}
+
+.tab-list li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.tab-con {
+    /* float: left; */
+    height: 360px;
+    /* background-color: pink; */
+}
+
+.w209 {
+    float: left;
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    float: left;
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: all 0.2s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+.fixedtool {
+    position: fixed;
+    top: 160px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    /* background-color: red; */
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    /* color: #fff; */
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #C81623;
+    color: #fff;
+}
